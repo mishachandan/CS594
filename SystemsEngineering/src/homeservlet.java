@@ -58,20 +58,23 @@ public class homeservlet extends HttpServlet {
 			// Driver driver = new org.gjt.mm.mysql.Driver();
 			conn = DriverManager.getConnection(Config.dbURl, Config.dbUsername, Config.dbPassword);
 			stmt = conn.createStatement();
-			String insert = "insert into projects (project_name) "
-					+ "values ('" + proj_name+"');";
+			String insert = "insert into projects (project_name, url) "
+					+ "values ('" + proj_name+"','" + url+"');";
 			System.out.println(insert);
 			stmt.executeUpdate(insert);
 			stmt.close();
 			
-			String select = "select project_id from projects where project_name = '"+proj_name+"'";
+			String select = "select project_id, url from projects where project_name = '"+proj_name+"'";
 			stmt = conn.createStatement();
 			ResultSet rs = stmt.executeQuery(select);
 			int id;
 			while(rs.next()){
 				id = rs.getInt("project_id");
+				url = rs.getNString("url");
 				System.out.println("Id" + id);
+				System.out.println("url" +url);
 				session.setAttribute("project_id", id);
+				session.setAttribute("url", url);
 			}
 			
 			

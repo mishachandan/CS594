@@ -1,0 +1,15 @@
+drop table responsetimes;
+drop table projects;
+
+CREATE TABLE `projects` (
+  `project_id` int(11) NOT NULL AUTO_INCREMENT,
+  `project_name` varchar(45) NOT NULL,
+`url` varchar(255) NOT NULL,
+  PRIMARY KEY (`project_id`),
+  UNIQUE KEY `project_id_UNIQUE` (`project_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+
+create table responseTimes (timeTaken double not null, project_id int, constraint fk foreign key (project_id) references projects(project_id));
+
+select * from responsetimes;

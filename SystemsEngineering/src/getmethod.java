@@ -46,7 +46,7 @@ public class getmethod extends HttpServlet {
 		SoapService service = new SoapService(url);
 		System.out.println(methodname);
 
-		SoapOperation op = service.getOperation("addTwoNumbers");
+		SoapOperation op = service.getOperation(methodname);
 
 		List<SoapInput> allInputs = op.getInputs();
 		request.getSession().setAttribute("allinputs", allInputs);
