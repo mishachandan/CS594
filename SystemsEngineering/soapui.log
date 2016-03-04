@@ -1,0 +1,28 @@
+2016-03-01 18:42:28,082 WARN  [SoapUI] Missing folder [F:\Shreyas\MSCouseProjects\Cs594\SystemsEngineering\.\ext] for external libraries
+2016-03-01 18:42:28,084 INFO  [DefaultSoapUICore] Creating new settings at [C:\Users\SHREYAS\soapui-settings.xml]
+2016-03-01 18:42:30,261 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2016-03-01 18:42:30,397 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2016-03-01 18:42:30,412 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2016-03-01 18:42:30,412 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2016-03-01 18:42:30,412 INFO  [SchemaUtils] Added default schema from file:/F:/Shreyas/MSCouseProjects/Cs594/SystemsEngineering/WebContent/WEB-INF/lib/soapui-4.0.1.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2016-03-01 18:42:30,579 INFO  [SchemaUtils] Loading schema types from [http://localhost:8080/MyFirstWebService/services/FirstWebService?wsdl]
+2016-03-01 18:42:30,579 INFO  [SchemaUtils] Getting schema http://localhost:8080/MyFirstWebService/services/FirstWebService?wsdl
+2016-03-01 18:42:30,880 INFO  [WsdlImporter] Finding importer for {http://sencide.com}FirstWebServiceHttpBinding
+2016-03-01 18:42:30,880 INFO  [WsdlImporter] Missing importer for {http://sencide.com}FirstWebServiceHttpBinding
+2016-03-01 18:42:30,880 INFO  [WsdlImporter] Finding importer for {http://sencide.com}FirstWebServiceSoap11Binding
+2016-03-01 18:42:30,880 INFO  [WsdlImporter] Importing binding {http://sencide.com}FirstWebServiceSoap11Binding
+2016-03-01 18:42:30,933 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8080/MyFirstWebService/services/FirstWebService.FirstWebServiceHttpSoap11Endpoint/
+2016-03-01 18:42:30,949 INFO  [Soap11HttpBindingImporter] importing operation addTwoNumbers
+2016-03-01 18:42:31,081 INFO  [WsdlImporter] Finding importer for {http://sencide.com}FirstWebServiceSoap12Binding
+2016-03-01 18:42:31,081 INFO  [WsdlImporter] Importing binding {http://sencide.com}FirstWebServiceSoap12Binding
+2016-03-01 18:42:31,081 INFO  [Soap12HttpBindingImporter] importing endpoint http://localhost:8080/MyFirstWebService/services/FirstWebService.FirstWebServiceHttpSoap12Endpoint/
+2016-03-01 18:42:31,081 INFO  [Soap12HttpBindingImporter] importing operation addTwoNumbers
+2016-03-01 18:42:31,081 INFO  [WsdlImporter] Finding importer for {http://sencide.com}FirstWebServiceHttpBinding
+2016-03-01 18:42:31,081 INFO  [WsdlImporter] Missing importer for {http://sencide.com}FirstWebServiceHttpBinding
+2016-03-01 18:42:31,174 INFO  [SoapInput] No documentation found for input firstNumber
+2016-03-01 18:42:31,234 INFO  [SoapInput] No documentation found for input secondNumber

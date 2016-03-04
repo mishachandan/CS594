@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>SystemsEngineering</display-name>
+  <welcome-file-list>
+    <welcome-file>homeservlet</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>homeservlet</display-name>
+    <servlet-name>homeservlet</servlet-name>
+    <servlet-class>homeservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>homeservlet</servlet-name>
+    <url-pattern>/homeservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>getmethod</display-name>
+    <servlet-name>getmethod</servlet-name>
+    <servlet-class>getmethod</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getmethod</servlet-name>
+    <url-pattern>/getmethod</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>getinputs</display-name>
+    <servlet-name>getinputs</servlet-name>
+    <servlet-class>getinputs</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>getinputs</servlet-name>
+    <url-pattern>/getinputs</url-pattern>
+  </servlet-mapping>
+</web-app>
